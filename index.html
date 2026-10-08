@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:,">
+  <title>In Loving Memory of Robert J. “Bob” Talbot</title>
+  <meta name="description" content="A public collection of tributes honoring Robert J. “Bob” Talbot and his life of service to The Catholic University of America.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme:light dark;
+      --page:#f5f3ef; --surface:#fffefa; --surface-2:#ebe7df; --ink:#282624; --muted:#68615b;
+      --cardinal:#7d1d2b; --cardinal-deep:#58121d; --gold:#a77c32; --gold-soft:#ddc99f;
+      --line:rgba(76,54,35,.17); --shadow:0 9px 30px rgba(55,38,25,.055); --focus:#126391;
+    }
+    @media (prefers-color-scheme:dark) {
+      :root { --page:#171513; --surface:#211e1b; --surface-2:#2b2621; --ink:#f5efe7; --muted:#c7baad;
+        --cardinal:#d47b86; --cardinal-deep:#eea3ac; --gold:#d6b66e; --gold-soft:#705f3d;
+        --line:rgba(232,207,164,.18); --shadow:0 10px 30px rgba(0,0,0,.22); --focus:#81c6ee; }
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--page);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.58;-webkit-font-smoothing:antialiased}
+    a{color:var(--cardinal-deep);text-underline-offset:3px} a:focus-visible{outline:3px solid var(--focus);outline-offset:4px;border-radius:2px}
+    .hero{position:relative;overflow:hidden;background:var(--cardinal-deep);color:#fff;padding:clamp(64px,10vw,126px) 24px clamp(58px,8vw,96px);text-align:center}
+    .hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 18%,rgba(255,255,255,.09),transparent 38%),linear-gradient(100deg,rgba(0,0,0,.14),transparent 38%,rgba(255,255,255,.035) 60%,rgba(0,0,0,.1));pointer-events:none}
+    .hero-inner{position:relative;max-width:980px;margin:auto} .hero-candle{display:block;width:62px;height:72px;margin:0 auto 22px;color:#e0bd70}
+    .hero-candle svg,.candle svg{width:100%;height:100%;overflow:visible} .flame{fill:currentColor} .wick,.base{fill:none;stroke:currentColor;stroke-width:1.25;stroke-linecap:round} .wax{fill:none;stroke:currentColor;stroke-width:1.25}
+    .kicker{margin:0 0 12px;color:#ecd9ab;font-size:.77rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+    h1,h2{font-family:"Libre Caslon Display",Georgia,serif;font-weight:400} h1{margin:0;font-size:clamp(2.8rem,7vw,5.8rem);line-height:1;letter-spacing:-.035em} .dates{margin:16px 0 0;color:#e6c77f;font-family:"Libre Caslon Display",Georgia,serif;font-size:clamp(1.35rem,2.4vw,1.9rem)}
+    .role{max-width:860px;margin:29px auto 0;color:#fff3e7;font-size:clamp(.92rem,1.5vw,1.04rem);font-weight:600;line-height:1.72} .bio{max-width:800px;margin:24px auto 0;color:#f0e7df;font-family:"Libre Caslon Display",Georgia,serif;font-size:clamp(1.1rem,2vw,1.35rem);line-height:1.68}
+    .privacy{display:inline-flex;align-items:center;gap:9px;margin:28px auto 0;padding:10px 14px;border:1px solid rgba(255,255,255,.24);color:#fff4df;background:rgba(0,0,0,.12);font-size:.85rem} .privacy svg{width:15px;height:15px;flex:none;fill:none;stroke:currentColor;stroke-width:1.6}
+    .content{width:min(1180px,calc(100% - 40px));margin:0 auto;padding:clamp(58px,8vw,92px) 0 84px} .section-head{display:grid;grid-template-columns:minmax(0,.72fr) minmax(360px,1fr);align-items:end;gap:42px;padding-bottom:27px;margin-bottom:28px;border-bottom:1px solid var(--line)}
+    h2{margin:0;color:var(--cardinal-deep);font-size:clamp(2.7rem,5.4vw,4.7rem);line-height:.95;letter-spacing:-.03em} .count{display:block;margin-top:11px;color:var(--gold);font-size:.81rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase} .intro{margin:0;color:var(--muted);font-size:1rem;line-height:1.66}
+    .tributes{columns:3 320px;column-gap:20px} .tribute{display:inline-block;width:100%;break-inside:avoid;margin:0 0 20px;padding:24px 23px 22px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow)}
+    .tribute-head{display:flex;align-items:center;gap:12px;margin-bottom:15px} .candle{display:grid;place-items:center;width:42px;height:42px;flex:0 0 42px;padding:9px;color:var(--gold);background:var(--surface-2);border:1px solid var(--gold-soft);border-radius:50%}
+    h3{margin:0;font-size:.96rem;font-weight:600;line-height:1.25} time{display:block;margin-top:3px;color:var(--muted);font-size:.73rem;line-height:1.35} .tribute-text{font-family:"Libre Caslon Display",Georgia,serif;font-size:1.2rem;line-height:1.52} .tribute-text p{margin:0 0 .72em} .tribute-text p:last-child{margin-bottom:0}
+    .original{display:inline-block;margin-top:17px;color:var(--cardinal-deep);font-size:.78rem;font-weight:600;text-decoration:none;border-bottom:1px solid var(--gold-soft)} .original:hover{border-bottom-color:currentColor}
+    .reply-list{list-style:none;margin:21px 0 0 12px;padding:2px 0 0 16px;border-left:2px solid var(--gold-soft)} .reply{margin:0 0 17px} .reply:last-child{margin-bottom:2px} .reply-head{display:flex;flex-wrap:wrap;gap:2px 9px;align-items:baseline} .reply-name{font-size:.81rem;font-weight:600} .reply-head time{display:inline;margin:0;font-size:.7rem} .reply p{margin:5px 0 0;color:var(--muted);font-family:"Libre Caslon Display",Georgia,serif;font-size:1rem;line-height:1.45} .reply .reaction{font-family:"DM Sans",sans-serif;font-size:.78rem}
+    footer{padding:36px 24px max(38px,env(safe-area-inset-bottom));background:var(--surface-2);border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:.85rem} footer p{margin:5px 0} footer a{font-weight:600}
+    @media(max-width:730px){.hero{padding-left:20px;padding-right:20px}.bio{text-align:left}.privacy{display:flex;max-width:420px;text-align:left}.content{width:calc(100% - 28px);padding-top:54px}.section-head{grid-template-columns:1fr;gap:18px;margin-bottom:22px}.tribute{padding:22px 20px}.reply-list{margin-left:7px;padding-left:12px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{:root{--page:#fff;--surface:#fff;--surface-2:#fff;--ink:#111;--muted:#444;--cardinal-deep:#681421;--gold:#785c2a;--line:#bbb;--shadow:none}.hero{color:#111;background:#fff;padding:34pt 20pt 28pt}.hero:before{display:none}.kicker,.dates,.hero-candle,.role,.bio{color:#111}.privacy{color:#222;background:#fff;border-color:#aaa}.content{width:100%;padding:26pt 0}.section-head{grid-template-columns:1fr 1fr}.tributes{columns:2}.tribute{padding:13pt;margin-bottom:10pt;box-shadow:none}.original{display:none}footer{padding:18pt}}
+  </style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="hero-candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span>
+      <p class="kicker">In Loving Memory</p>
+      <h1>Robert J. &quot;Bob&quot; Talbot</h1>
+      <p class="dates">1938 – October 2026</p>
+      <p class="role">Catholic University &#x27;59 · Basketball &amp; Baseball standout · Head Baseball Coach 1965–77 · Athletics Director · Dean of Admissions and Financial Aid</p>
+      <p class="bio">Bob Talbot, 88, was a class of 1959 graduate of The Catholic University of America and a standout athlete in men&#x27;s basketball and baseball. He served as head baseball coach from 1965 to 1977 and as athletics director for over a decade. In 2000 the baseball program dedicated its field as Robert J. Talbot Field. He was inducted into the Catholic Athletics Hall of Fame on June 8, 1985. Away from athletics he served as Dean of Admissions and Financial Aid. As a student-athlete he scored 1,187 points in basketball (24th all-time) and shares the baseball program record with 17 strikeouts in a single game.</p>
+      <p class="privacy"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5.5 8V6a4.5 4.5 0 0 1 9 0v2M4 8h12v9H4z"/></svg>Names appear as first name and last initial to protect everyone&#x27;s privacy.</p>
+    </div>
+  </header>
+  <section class="content" aria-labelledby="tributes-heading">
+    <div class="section-head"><div><h2 id="tributes-heading">Tributes</h2><span class="count">58 remembrances</span></div><p class="intro">Tributes shared publicly on the Catholic University Athletics Facebook post, preserved here.</p></div>
+    <div class="tributes"><article class="tribute" aria-labelledby="tribute-1-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-1-name">Megan M.</h3><time>October 6, 2026 · 2:27 PM ET</time></div></header>
+      <div class="tribute-text"><p>He was the best 🩷</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1068178396086431" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-2-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-2-name">Daniel H.</h3><time>October 6, 2026 · 2:33 PM ET</time></div></header>
+      <div class="tribute-text"><p>THE BEST! GOD BLESS!</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=2533687097131164" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-3-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-3-name">Stacey M.</h3><time>October 6, 2026 · 3:03 PM ET</time></div></header>
+      <div class="tribute-text"><p>Mr. Talbot was a wonderful person and a great ambassador for CUA. He made an impact on all who knew him. A legend who will not be forgotten. RIP.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1133577972497877" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:26 AM ET</time></div><p>Bob was not into social media but I kept him up to date on the adventures of Stacey and Marty. Thank you for your kind words</p></li><li class="reply"><div class="reply-head"><span class="reply-name">Stacey M.</span><time>October 7, 2026 · 6:37 AM ET</time></div><p>wow. Thank you. ❤️</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-4-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-4-name">Brian K.</h3><time>October 6, 2026 · 3:04 PM ET</time></div></header>
+      <div class="tribute-text"><p>One of the &#x27;Good Ones.&#x27; Did so much good in support of so many. Lives in the CUA and Veteran communities are somehow emptier with Mr. Talbot gone. Grateful that so many had him in our lives.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1107754041629724" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-5-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-5-name">Patrick C.</h3><time>October 6, 2026 · 3:07 PM ET</time></div></header>
+      <div class="tribute-text"><p>Bob Talbot was a lot of things in my life: The person who was in charge of admissions and financial aid when I was admitted, and for a while, my boss. Glad he is at peace. It should be noted that his 1,187 points was the school record at the time he graduated.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=2522777984869882" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Stacey M.</span><time>October 6, 2026 · 3:58 PM ET</time></div><p>a true gentleman. I was just talking about him at a CUA event in Philly.</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-6-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-6-name">Annie F.</h3><time>October 6, 2026 · 3:28 PM ET</time></div></header>
+      <div class="tribute-text"><p>I’m so saddened to hear this news. Mr. Talbot was such a wonderful man. 🙏</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=2517027648764242" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-7-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-7-name">Ryan E.</h3><time>October 6, 2026 · 3:40 PM ET</time></div></header>
+      <div class="tribute-text"><p>A true legend. His legacy will carry on in so many. Proud to be one of them as a Catholic University Baseball alum. Love to the Talbot family ❤️❤️❤️</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1095340716206483" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-8-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-8-name">Kevin R.</h3><time>October 6, 2026 · 3:47 PM ET</time></div></header>
+      <div class="tribute-text"><p>The Best. He positively impacted so many lives throughout his time at Catholic. He set the standard for competitive excellence and humility for CUA athletics that exists today. May he rest in eternal peace.</p><p>#LegacyBuilt</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1403680691943135" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-9-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-9-name">Charlotte R.</h3><time>October 6, 2026 · 4:05 PM ET</time></div></header>
+      <div class="tribute-text"><p>RIP🙏</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1443862334324624" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-10-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-10-name">Kenneth L.</h3><time>October 6, 2026 · 4:21 PM ET</time></div></header>
+      <div class="tribute-text"><p>A true legend at Catholic U. Definitely in the Mt. Rushmore of CUA. He will be greatly missed. Thinking of the Talbot family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1993877414594554" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:26 AM ET</time></div><p>Thank you</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-11-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-11-name">Jay F.</h3><time>October 6, 2026 · 4:27 PM ET</time></div></header>
+      <div class="tribute-text"><p>Great man and family.   Condolences to the Talbot family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1128540459651065" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-12-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-12-name">John D.</h3><time>October 6, 2026 · 4:30 PM ET</time></div></header>
+      <div class="tribute-text"><p>The best of the best! Not just a great Athletic Director and admissions but cared about the person and the development. Bob Talbot was such a big piece of my life attending and playing sports at CUA. Our thoughts and prayers extend from the Douglas family to the Talbots during this time.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1406684591009463" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:05 AM ET</time></div><p>you brought us great joy when you played at Catholic. We even followed you to Florida for your baseball try out. I’m sorry we missed seeing you while your daughter was at CUA but these last years have been difficult.</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-13-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-13-name">Samuel B.</h3><time>October 6, 2026 · 4:36 PM ET</time></div></header>
+      <div class="tribute-text"><p>Truly the Best!!! Mr. Talbot was a great leader and wonderful person who truly cared about us student/athlete. My deepest sympathy and condolences to the Talbot Family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1045918734535460" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:09 AM ET</time></div><p>Sammy you brought us great joy when you played at CUA. So many good memories.</p></li><li class="reply"><div class="reply-head"><span class="reply-name">Samuel B.</span><time>October 7, 2026 · 10:53 AM ET</time></div><p>The support of you and Mr. Talbot when Lil Sammy was born while I was a student at CUA. Words can’t describe what he and you mean to me and my family. […]</p></li><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 3:41 PM ET</time></div><p>we loved following Little Sammy as he grew up. You did a wonderful job and it made us so happy.</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-14-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-14-name">Ralph F.</h3><time>October 6, 2026 · 4:37 PM ET</time></div></header>
+      <div class="tribute-text"><p>Bob was a true gentleman and a class act all the way. His love for CUA was second to none and his dedication to athletics was unmatched.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=2359949621426362" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-15-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-15-name">Ernest S.</h3><time>October 6, 2026 · 4:46 PM ET</time></div></header>
+      <div class="tribute-text"><p>Bob was a genuinely wonderful person in every way.  A huge loss.  God bless him, Barbara, and their family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=4481503818661586" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:31 AM ET</time></div><p>Thank you</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-16-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-16-name">Jaynemarie L.</h3><time>October 6, 2026 · 4:55 PM ET</time></div></header>
+      <div class="tribute-text"><p>I remember Dean Talbot well. He had an infectious love for CUA. He really helped me when I was an undergrad and I will always be grateful for that. My condolences to his family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1349572361575840" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:29 AM ET</time></div><p>Thank you</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-17-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-17-name">Noreen M.</h3><time>October 6, 2026 · 4:55 PM ET</time></div></header>
+      <div class="tribute-text"><p>🙏❤️</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1097792329663575" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-18-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-18-name">Danette T.</h3><time>October 6, 2026 · 5:17 PM ET</time></div></header>
+      <div class="tribute-text"><p>“Coach” Bob Talbot was truly the heart and soul of Catholic University. His dedication and love of CUA went far and touched so many students, athletes, and alumni. Condolences and prayers to Barbara T. and his family. ⚾️🙏💞</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1571961334249196" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:07 AM ET</time></div><p>I hope you know how much you both meant to us.</p></li><li class="reply"><div class="reply-head"><span class="reply-name">Danette T.</span><time>October 7, 2026 · 7:42 AM ET</time></div><p>we do, you both will always be with us in our hearts 💞</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-19-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-19-name">Tom S.</h3><time>October 6, 2026 · 5:22 PM ET</time></div></header>
+      <div class="tribute-text"><p>I played on the baseball team for 1 year as freshman with his son in 1990-1991. Remember talking to Mr Talbot plenty of times. Really nice guy.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1125837510029831" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:26 AM ET</time></div><p class="reaction"><em>Barbara T. reacted to this tribute</em></p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-20-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-20-name">Benjamin C.</h3><time>October 6, 2026 · 5:25 PM ET</time></div></header>
+      <div class="tribute-text"><p>What a great man and a wonderful family. My hope for the Talbot’s is that they find peace in knowing how much he meant to so many of us.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1822699968755347" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:32 AM ET</time></div><p>so many great memories of your time at CUA and Johnstown.</p></li><li class="reply"><div class="reply-head"><span class="reply-name">Benjamin C.</span><time>October 7, 2026 · 6:42 AM ET</time></div><p class="reaction"><em>Benjamin C. reacted to this tribute</em></p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-21-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-21-name">Thomas B.</h3><time>October 6, 2026 · 5:28 PM ET</time></div></header>
+      <div class="tribute-text"><p>RIP Bob 🙏🙏🙏</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1081912574820177" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-22-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-22-name">Claude P.</h3><time>October 6, 2026 · 5:37 PM ET</time></div></header>
+      <div class="tribute-text"><p>So sorry to hear God bless Coach🙏 He meant a lot to me.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1123949887054392" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-23-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-23-name">Bill P.</h3><time>October 6, 2026 · 5:45 PM ET</time></div></header>
+      <div class="tribute-text"><p>I agree with Ralph, Bob was a true gentleman, worked so well nurturing young men and women, leading by example the spirit of being a CUA student.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1603557677910767" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:27 AM ET</time></div><p>Thank you</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-24-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-24-name">David M.</h3><time>October 6, 2026 · 5:46 PM ET</time></div></header>
+      <div class="tribute-text"><p>Remembering Bob and his many roles at CUA !!!</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=3293455977508836" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-25-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-25-name">Johnny H.</h3><time>October 6, 2026 · 6:03 PM ET</time></div></header>
+      <div class="tribute-text"><p>RIP Mr. Talbot!</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=3293455977508836" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-26-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-26-name">Reilly S.</h3><time>October 6, 2026 · 6:29 PM ET</time></div></header>
+      <div class="tribute-text"><p>Memories come flooding back - from the game he came to see me in my high school senior year (1976) to winning the ECAC championship the year following. Coach Talbot was a true gentleman and scholar - as fine as they come. Thanks Bob for all you did. My prayers to you Barbara T. and the wonderful family you two raised. Peace and blessings.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=29114045138283618" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 6, 2026 · 8:44 PM ET</time></div><p>such wonderful memories of your time at Catholic, Reilly. They were great years.</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-27-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-27-name">Kimberly C.</h3><time>October 6, 2026 · 6:37 PM ET</time></div></header>
+      <div class="tribute-text"><p>The best!! Loved speaking with him and listening to his advice and experiences in life. Not just athletics but life.</p><p>He left a true impact on this world.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1564608985331700" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:28 AM ET</time></div><p>Thank you</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-28-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-28-name">Angela S.</h3><time>October 6, 2026 · 6:49 PM ET</time></div></header>
+      <div class="tribute-text"><p>Mr Talbot was an amazing man.   So grateful for all he did for Catholic University.   May he rest in peace.   Prayers to his family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1136912195663058" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:29 AM ET</time></div><p>Thank you</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-29-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-29-name">Kevin M.</h3><time>October 6, 2026 · 6:52 PM ET</time></div></header>
+      <div class="tribute-text"><p>I remember first meeting him at an event for accepted students in New Jersey.  He really represented the university well.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1136912195663058" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:27 AM ET</time></div><p>Thank you</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-30-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-30-name">Richard C.</h3><time>October 6, 2026 · 6:56 PM ET</time></div></header>
+      <div class="tribute-text"><p>Very sad news to hear of the passing of the great Bob Talbot. This man was the epitome and living embodiment of everything Catholic University and Catholic University Athletics stood for. My relationship with him was different than most as I was an outsider who did business at Catholic University athletics for almost forty years. I sold uniforms and athletic equipment there and it was a privilege to do business with this man. My sincere condolences go out to Mrs. Talbot and the Talbot family. May God bless this wonderful man and his family! Thank you Mr. Talbot! 🙏🙏🙏🙏❤️</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=958700860619214" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 6, 2026 · 8:49 PM ET</time></div><p>and he enjoyed doing business with you.</p></li><li class="reply"><div class="reply-head"><span class="reply-name">Richard C.</span><time>October 6, 2026 · 9:20 PM ET</time></div><p>thank you Mrs Talbot, that means the world to me and literally brings tears to my eyes. Your family knows how beloved he was by the University community. 🙏</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-31-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-31-name">Kevin D.</h3><time>October 6, 2026 · 7:10 PM ET</time></div></header>
+      <div class="tribute-text"><p>Great man!!  He had time for every student!!  I enjoyed seeing him after graduation, he was always so warm and welcoming!!  Rest in Peace Bob!!  A true CUA Cardinal forever!!  🙏🙏</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1629712945225453" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:10 AM ET</time></div><p>Thank you for your kind words.</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-32-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-32-name">Gary R.</h3><time>October 6, 2026 · 7:27 PM ET</time></div></header>
+      <div class="tribute-text"><p>Truly the Godfather of CUA! Thank you for all you did for me and our game! I will never forget our talks about baseball and what it means to you! You will be missed but never forgotten!</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1409953307332443" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:12 AM ET</time></div><p>thanks Gary</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-33-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-33-name">Jeff B.</h3><time>October 6, 2026 · 7:40 PM ET</time></div></header>
+      <div class="tribute-text"><p>A true Gentleman with a lasting legacy.  Thank you for your stewardship and dedication to CUA.  Sending prayers to the entire Talbot family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1290966169821507" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:29 AM ET</time></div><p class="reaction"><em>Barbara T. reacted to this tribute</em></p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-34-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-34-name">Ro W.</h3><time>October 6, 2026 · 7:53 PM ET</time></div></header>
+      <div class="tribute-text"><p>Absolute class act and legendary administrator at CUA. So sad to hear the news but no one has done more for CUA and the Catholic community. Rip Bob and thanks for all that you did!</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1732282482230699" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-35-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-35-name">Mike M.</h3><time>October 6, 2026 · 8:03 PM ET</time></div></header>
+      <div class="tribute-text"><p>An exceptionally nice man.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1099790099610340" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-36-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-36-name">Anne H.</h3><time>October 6, 2026 · 8:46 PM ET</time></div></header>
+      <div class="tribute-text"><p>I am so sad to see this. He was simply the best. I had the privilege to know and work for him while in school and to become friends with him and Barbara. I was honored to have them at my wedding. Catholic U and Bob Talbot are synonymous. My love to Barbara and the family. God bless. ❤️</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1480587550577140" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-37-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-37-name">Michael M.</h3><time>October 6, 2026 · 8:58 PM ET</time></div></header>
+      <div class="tribute-text"><p>My condolences to Barbara and the Talbot family on the loss of their beloved Bob and father. So many Cardinals benefited from his wisdom and loved him for his kindness 🙏</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=2319545325249550" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-38-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-38-name">Brian H.</h3><time>October 6, 2026 · 9:31 PM ET</time></div></header>
+      <div class="tribute-text"><p>Bob was simply one of the best people I’ve ever had the pleasure of meeting. I was at Walter Reed hospital from 2013-2016, and Bob used to volunteer and do things with wounded warriors. I think the first time we met was going to a Nationals baseball game together. Through time, Bob and I became quite close. He became both a great friend as well as a father figure for me. My time at Walter Reed was a very hard time, and Bob was 100% one of the reasons I even made it through that time of my life. Truly lost such an amazing, incredible person. Barbara, if there is anything I can do, now or ever, I’m a call away. I love and miss you, Bob.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1070627185783705" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:17 AM ET</time></div><p>we were so lucky to meet you and so many wounded warriors at Walter Reed. It enriched our lives. Bob found a new purpose for every day after retirement and I loved be along for the ride.</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-39-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-39-name">Andi M.</h3><time>October 6, 2026 · 10:23 PM ET</time></div></header>
+      <div class="tribute-text"><p>It’s impossible not to think of Mr. Talbot when I think back on my time at Catholic. What an incredibly kind man who leaves behind a remarkable impact on so many athletes. He will be missed.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1741075807193021" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-40-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-40-name">Kathy T.</h3><time>October 6, 2026 · 10:33 PM ET</time></div></header>
+      <div class="tribute-text"><p>My father, Tom M., and my uncle, Bill U., played basketball with him. I met him once when he was AD, that I remember, as a young girl. I always heard wonderful stories about him.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1143033875059388" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 6:23 AM ET</time></div><p>your uncle and your Dad were part of our lives - at reunions and trips to Florida. They remained a part of our lives.</p></li><li class="reply"><div class="reply-head"><span class="reply-name">Kathy T.</span><time>October 7, 2026 · 11:39 AM ET</time></div><p>how sweet of you to respond. My heart is with you. My uncle passed in 2016 and my dad two years later in 2018. Such an amazing friendship through CUA.</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-41-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-41-name">Tiffany H.</h3><time>October 7, 2026 · 12:56 AM ET</time></div></header>
+      <div class="tribute-text"><p>I’ll never forget the day Mr. Talbot called to convince me to come to CUA and made it possible with additional scholarship money he knew I needed. A true class act. May perpetual light shine upon him.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1666592515465861" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-42-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-42-name">Laura B.</h3><time>October 7, 2026 · 1:29 AM ET</time></div></header>
+      <div class="tribute-text"><p>Sara A. and family, I am so sorry for your loss. Your dad was an amazing, kind-hearted man. My thoughts and prayers are with you. Thinking of you. Big hugs.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1666592515465861" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-43-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-43-name">Frances T.</h3><time>October 7, 2026 · 4:18 AM ET</time></div></header>
+      <div class="tribute-text"><p>Condolences Barbara and all of your family . Rest in peace Bob 🙏</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1426437392147732" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-44-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-44-name">Barbara T.</h3><time>October 7, 2026 · 6:14 AM ET</time></div></header>
+      <div class="tribute-text"><p>Thank you we have great memories of you and your parents while you were at CUA. It has been a great joy for us to follow your life journey.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1599220641995116" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-45-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-45-name">Barbara T.</h3><time>October 7, 2026 · 6:19 AM ET</time></div></header>
+      <div class="tribute-text"><p>Than you,Fran. Same name, not related, but as close as family. ❤️</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=29179995478264498" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-46-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-46-name">Jack P.</h3><time>October 7, 2026 · 6:54 AM ET</time></div></header>
+      <div class="tribute-text"><p>A true gentleman. A life of service to the institution and people he loved. RIP Bob.God Bless.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1811984663140270" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-47-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-47-name">Jennifer R.</h3><time>October 7, 2026 · 7:48 AM ET</time></div></header>
+      <div class="tribute-text"><p>🙏🏻🙏🏻🙏🏻</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1811984663140270" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-48-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-48-name">Tom C.</h3><time>October 7, 2026 · 8:24 AM ET</time></div></header>
+      <div class="tribute-text"><p>Bob, you were the greatest and best Catholic has ever known. Your impact will never be surpassed! Rest in peace my friend 🙏</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1494148332766688" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      <ol class="reply-list" aria-label="Replies"><li class="reply"><div class="reply-head"><span class="reply-name">Barbara T.</span><time>October 7, 2026 · 3:45 PM ET</time></div><p>you know he thought the world of you. He loved to win and you did that and it brought so much joy.</p></li></ol>
+    </article><article class="tribute" aria-labelledby="tribute-49-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-49-name">Matt R.</h3><time>October 7, 2026 · 8:42 AM ET</time></div></header>
+      <div class="tribute-text"><p>A Great Man !!  will be missed</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1080745244937552" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-50-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-50-name">Sherri P.</h3><time>October 7, 2026 · 11:59 AM ET</time></div></header>
+      <div class="tribute-text"><p>Robert was a great man and an old friend. He helped me get a great scholarship. He attended my wedding and he was a great role model for me. I will truly miss him. Condolences to his family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1122358423509478" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-51-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-51-name">Rita M.</h3><time>October 7, 2026 · 12:22 PM ET</time></div></header>
+      <div class="tribute-text"><p>Bob was a true gentleman and friend! We were all part of the Blessed Sacrament School group. Our children were together in different class years and still remain dear friends. Bob will be sorely missed. Our condolences to the Talbot family!</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1073621555545215" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-52-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-52-name">Babs C.</h3><time>October 7, 2026 · 1:52 PM ET</time></div></header>
+      <div class="tribute-text"><p>Deepest condolences.  May he RIP</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=3415290768676326" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-53-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-53-name">Mary H.</h3><time>October 7, 2026 · 1:58 PM ET</time></div></header>
+      <div class="tribute-text"><p>Great guy. He will be missed by many.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=28961908683498295" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-54-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-54-name">Tina R.</h3><time>October 7, 2026 · 5:41 PM ET</time></div></header>
+      <div class="tribute-text"><p>Forever grateful to Mr. Bob Talbot for the great support and mentorship. Hope Marty and Franny M. met him at the gate.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1410836094556930" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-55-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-55-name">John M.</h3><time>October 7, 2026 · 7:18 PM ET</time></div></header>
+      <div class="tribute-text"><p>Bob Talbot was the reason I got into college. He told me he would give a chance and to not let him down. I graduated in 4 years and it is because of Bob I completed college. A great man for others that I still saw and spent time with in Bethesda even recently. RIP Bob Talbot, know that you were a great man and an inspiration for so many people . God Bless Barbara and the whole family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=2210943546147805" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-56-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-56-name">Carroll D.</h3><time>October 7, 2026 · 9:01 PM ET</time></div></header>
+      <div class="tribute-text"><p>I’m so sorry Barbara. Bob was such an inspiration and did so much for CUA. I will keep you and your family in our prayers.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1410836094556930" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-57-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-57-name">Jimmy M.</h3><time>October 7, 2026 · 9:19 PM ET</time></div></header>
+      <div class="tribute-text"><p>As The Dean Of Admissions, Mr. Talbot admitted me into CUA on a provisional acceptance. He gave me a chance based on my H.S. grades and my involvement in sports and extracurricular activities. My SAT scores were horrible! I mean awful! I will never forget what he did for me. RIP and my condolences to his entire family.</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=4641605362827897" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article><article class="tribute" aria-labelledby="tribute-58-name">
+      <header class="tribute-head"><span class="candle" aria-hidden="true"><svg viewBox="0 0 32 38"><path class="flame" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/><path class="wick" d="M16 10v7"/><path class="wax" d="M9 20h14v14H9z"/><path class="base" d="M6 35h20"/></svg></span><div><h3 id="tribute-58-name">Diane B.</h3><time>October 8, 2026 · 8:34 AM ET</time></div></header>
+      <div class="tribute-text"><p>Bob Talbot was a wonderful man! So many great memories of him supporting and guiding Ryan and our family while Ryan was a student/athlete at CUA. One great memory is after Hurricane Isabel hit in MD, we were without power and climbing the walls. Catholic was playing Shenandoah that weekend. We decided to make the trek to Winchester VA to see the game. I shouldn’t have been surprised that Bob was also there. He was a one-man support system and we will always remember him with so much fondness! 🙏❤️🖤🙏</p></div>
+      <a class="original" href="https://facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/?comment_id=1822446438776747" target="_blank" rel="noopener noreferrer">View original <span aria-hidden="true">↗</span></a>
+      
+    </article></div>
+  </section>
+</main>
+<footer><p>Last updated October 8, 2026.</p><p><a href="https://www.facebook.com/100063604448415/posts/pfbid0UYq5cJ5uYbhUhedJ5EXKJBfQcMtTeDu5zUjRHxqigYn5AZft2HA8yqiayW8uDw9Tl/" target="_blank" rel="noopener noreferrer">View the source Facebook post <span aria-hidden="true">↗</span></a></p></footer>
+</body>
+</html>
