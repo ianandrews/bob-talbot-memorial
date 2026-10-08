@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <title>Memorial candle</title>
+  <rect width="180" height="180" rx="30" fill="#58121d"/>
+  <g transform="translate(42 29) scale(3)" fill="none" stroke="#e0bd70" stroke-width="1.8" stroke-linecap="round">
+    <path fill="#e0bd70" stroke="none" d="M16 2c4 5 6 8 6 12a6 6 0 1 1-12 0c0-4 2-7 6-12Z"/>
+    <path d="M16 10v7M9 20h14v14H9zM6 35h20"/>
+  </g>
+</svg>
